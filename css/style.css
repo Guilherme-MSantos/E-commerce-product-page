@@ -4,4 +4,134 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  margin: 20px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.user-zone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-zone .cart {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.produto {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.part-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.img-produto {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.thumbnail-img {
+  position: relative;
+  margin: 0 auto;
+  left: 2px;
+  margin-top: 10px;
+  width: 376px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.produto-thumbnail {
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  margin: 0 6px;
+}
+
+.part-2 {
+  width: 50%;
+}
+
+.intro {
+  color: #ff7d1a;
+  font-weight: 700;
+}
+
+p {
+  width: 500px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #ff7d1a;
+  border: none;
+  padding: 10px;
+  color: #ffede0;
+}
+
+.card-desconto {
+  width: 41px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #ffede0;
+  color: #ff7d1a;
+}
 /*# sourceMappingURL=style.css.map */
