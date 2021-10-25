@@ -149,18 +149,20 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  position: relative;
+  left: -214px;
 }
 
 .quantidade {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ProdutoQuantidade {
@@ -168,6 +170,8 @@ p {
 }
 
 .ProdutoQuantidade p {
+  border: red solid 2px;
+  background-color: #f7f8fd;
   width: 30px;
   text-align: center;
 }

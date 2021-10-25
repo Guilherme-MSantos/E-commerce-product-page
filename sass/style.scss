@@ -96,16 +96,20 @@ p {
 }
 .comprar {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  position: relative;
+  left: -214px;
 }
 .quantidade {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .ProdutoQuantidade {
   width: 30px;
 }
 .ProdutoQuantidade p {
+  border: red solid 2px;
+  background-color: $LightGrayishBlue;
   width: 30px;
   text-align: center;
 }
