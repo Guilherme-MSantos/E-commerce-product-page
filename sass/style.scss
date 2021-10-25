@@ -30,6 +30,7 @@ li {
   }
 }
 .container {
+  // border: black 2px solid;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -69,21 +70,66 @@ li {
   margin: 0 6px;
 }
 .part-2 {
+  // border: orangered 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 50%;
+  height: 100%;
 }
 .intro {
   color: $Orange;
   font-weight: 700;
+  align-self: flex-start;
+}
+h1 {
+  text-align: left;
+  align-self: flex-start;
 }
 p {
+  color: $DarkGrayishBlue;
+  text-align: left;
   width: 500px;
+  //border: steelblue 2px solid;
+  align-self: flex-start;
 }
-button {
+.comprar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.quantidade {
+  display: flex;
+}
+.ProdutoQuantidade {
+  width: 30px;
+}
+.ProdutoQuantidade p {
+  width: 30px;
+  text-align: center;
+}
+button,
+.i {
+  background-color: $LightGrayishBlue;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.cart-button {
+  margin-left: 10px;
   cursor: pointer;
   background-color: $Orange;
   border: none;
   padding: 10px;
   color: $PaleOrange;
+}
+.preco {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
 }
 .card-desconto {
   width: 41px;
@@ -91,4 +137,5 @@ button {
   border-radius: 5px;
   background-color: $PaleOrange;
   color: $Orange;
+  margin-left: 10px;
 }

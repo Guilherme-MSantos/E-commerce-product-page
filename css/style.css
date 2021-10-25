@@ -107,24 +107,102 @@ li {
 }
 
 .part-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 50%;
+  height: 100%;
 }
 
 .intro {
   color: #ff7d1a;
   font-weight: 700;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+h1 {
+  text-align: left;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 p {
+  color: #68707d;
+  text-align: left;
   width: 500px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
-button {
+.comprar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.quantidade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ProdutoQuantidade {
+  width: 30px;
+}
+
+.ProdutoQuantidade p {
+  width: 30px;
+  text-align: center;
+}
+
+button,
+.i {
+  background-color: #f7f8fd;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-button {
+  margin-left: 10px;
   cursor: pointer;
   background-color: #ff7d1a;
   border: none;
   padding: 10px;
   color: #ffede0;
+}
+
+.preco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .card-desconto {
@@ -133,5 +211,6 @@ button {
   border-radius: 5px;
   background-color: #ffede0;
   color: #ff7d1a;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
