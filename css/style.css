@@ -170,7 +170,6 @@ p {
 }
 
 .ProdutoQuantidade p {
-  border: red solid 2px;
   background-color: #f7f8fd;
   width: 30px;
   text-align: center;

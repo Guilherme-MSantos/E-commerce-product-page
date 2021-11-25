@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,35 +49,47 @@
       </div>
       <div class="menu-mobile"></div>
       <div class="user-zone">
-        <img src="./images/icon-cart.svg" alt="" class="cart" />
+        <img
+          src="./images/icon-cart.svg"
+          alt=""
+          class="cart"
+          id="cart"
+          onclick="VisualizarCompra()"
+        />
         <img src="./images/image-avatar.png" alt="" />
       </div>
     </header>
     <div class="container">
       <section class="part-1">
-        <div class="img-produto">
-          <img src="./images/image-product-1.jpg" alt="" class="produto" />
-        </div>
+        <div class="img-produto" id="Produto-thumbnail-img"></div>
         <div class="thumbnail-img">
           <img
             src="./images/image-product-1-thumbnail.jpg"
             alt=""
             class="produto-thumbnail"
+            id="img01"
+            onclick="Trocar(Image01)"
           />
           <img
             src="./images/image-product-2-thumbnail.jpg"
             alt=""
             class="produto-thumbnail"
+            id="img02"
+            onclick="Trocar(Image02)"
           />
           <img
             src="./images/image-product-3-thumbnail.jpg"
             alt=""
             class="produto-thumbnail"
+            id="img03"
+            onclick="Trocar(Image03)"
           />
           <img
             src="./images/image-product-4-thumbnail.jpg"
             alt=""
             class="produto-thumbnail"
+            id="img04"
+            onclick="Trocar(Image04)"
           />
         </div>
       </section>
@@ -106,7 +118,7 @@
               </button>
             </div>
 
-            <button class="cart-button">
+            <button class="cart-button" id="add-to-cart">
               <img src="./images/icon-cart.svg" alt="" />
               add to cart
             </button>
